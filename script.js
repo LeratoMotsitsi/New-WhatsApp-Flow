@@ -464,5 +464,7 @@ let selectedItem = '';
             window.selectedFlexClubCar = carName;
             window.selectedFlexClubPrice = monthlyPrice;
             
-            showArtboard('flexclub-form');
+            showArtboard('flexclub-form')
+                    window.calculateAndShowNormalPayout = calculateAndShowNormalPayout;
+window.calculateAndShowImmediatePayout = calculateAndShowImmediatePayout;;
         }
